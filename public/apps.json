@@ -1,0 +1,463 @@
+[
+  {
+    "id": "app001",
+    "name": "ChatGPT",
+    "developer": "OpenAI, L.L.C.",
+    "thumbnail": "https://i.ibb.co.com/Kj8c6402/Untitled-design-8.png",
+    "banner": "https://i.ibb.co.com/Kj8c6402/Untitled-design-8.png",
+    "downloads": "25M",
+    "category": "Productivity",
+    "rating": 4.9,
+    "description": "ChatGPT is an AI -powered chatbot that assists with tasks, generates text, and provides answers to a wide range of questions, enhancing productivity.",
+    "features": [
+      "Natural language processing",
+      "Task automation",
+      "Cross-platform syncing"
+    ],
+    "reviews": [
+      {
+        "user": "tech_enthusiast",
+        "rating": 5,
+        "comment": "Incredible for quick answers and automating tasks!"
+      }
+    ],
+    "isTrending": true
+  },
+  {
+    "id": "app002",
+    "name": "Hill Climb Racing",
+    "developer": "Fingersoft",
+    "thumbnail": "https://i.ibb.co.com/JRxX98B3/Untitled-design-9.png",
+    "banner": "https://i.ibb.co.com/JRxX98B3/Untitled-design-9.png",
+    "downloads": "1B",
+    "category": "Gaming",
+    "rating": 4.5,
+    "description": "Hill Climb Racing is a physics-based driving game where players navigate challenging terrains, collect coins, and upgrade vehicles to conquer hills.",
+    "features": [
+      "Varied terrains and vehicles",
+      "Physics-based mechanics",
+      "Upgradable vehicles"
+    ],
+    "reviews": [
+      {
+        "user": "race_fan",
+        "rating": 4,
+        "comment": "Simple but addictive! Graphics could be better."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app003",
+    "name": "Headspace",
+    "developer": "Headspace Inc.",
+    "thumbnail": "https://i.ibb.co.com/0L4wpgx/Untitled-design-10.png",
+    "banner": "https://i.ibb.co.com/0L4wpgx/Untitled-design-10.png",
+    "downloads": "35M",
+    "category": "Health & Fitness",
+    "rating": 4.85,
+    "description": "Headspace offers guided meditations and mindfulness exercises to reduce stress and improve mental well-being.",
+    "features": [
+      "Guided meditation sessions",
+      "Mindfulness exercises",
+      "Sleep sounds"
+    ],
+    "reviews": [
+      {
+        "user": "mindful_user",
+        "rating": 5,
+        "comment": "Transformed my daily routine with meditation."
+      }
+    ],
+    "isTrending": true
+  },
+  {
+    "id": "app004",
+    "name": "Candy Crush Saga",
+    "developer": "King",
+    "thumbnail": "https://i.ibb.co.com/mVvQ6cNR/Untitled-design-11.png",
+    "banner": "https://i.ibb.co.com/mVvQ6cNR/Untitled-design-11.png",
+    "downloads": "1B",
+    "category": "Gaming",
+    "rating": 4.6,
+    "description": "Candy Crush Saga is a sweet match-3 puzzle game with thousands of levels and addictive gameplay for casual gamers.",
+    "features": ["Thousands of levels", "Daily rewards", "Social leaderboards"],
+    "reviews": [
+      {
+        "user": "puzzle_fan",
+        "rating": 4,
+        "comment": "Addictive but some levels are too hard without boosters."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app005",
+    "name": "Notion",
+    "developer": "Notion Labs, Inc.",
+    "thumbnail": "https://i.ibb.co.com/7xYhmjtX/Untitled-design-6.png",
+    "banner": "https://i.ibb.co.com/7xYhmjtX/Untitled-design-6.png",
+    "downloads": "10M",
+    "category": "Productivity",
+    "rating": 4.8,
+    "description": "Notion is an all-in-one workspace for notes, tasks, and databases. Perfect for teams and individuals to plan, track, and collaborate efficiently.",
+    "features": [
+      "Customizable workspaces",
+      "Database management",
+      "Team collaboration"
+    ],
+    "reviews": [
+      {
+        "user": "planner_guru",
+        "rating": 4,
+        "comment": "Super versatile but takes time to master all features."
+      }
+    ],
+    "isTrending": true
+  },
+  {
+    "id": "app006",
+    "name": "MyFitnessPal",
+    "developer": "MyFitnessPal, Inc.",
+    "thumbnail": "https://i.ibb.co.com/VcFGf47k/Untitled-design-12.png",
+    "banner": "https://i.ibb.co.com/VcFGf47k/Untitled-design-12.png",
+    "downloads": "50M",
+    "category": "Health & Fitness",
+    "rating": 4.6,
+    "description": "MyFitnessPal is a calorie counter and diet tracker that helps you achieve your fitness goals with personalized plans and insights.",
+    "features": [
+      "Calorie tracking",
+      "Macronutrient breakdowns",
+      "Integration with fitness devices"
+    ],
+    "reviews": [
+      {
+        "user": "health_buff",
+        "rating": 5,
+        "comment": "Helped me lose 10 pounds by tracking my meals!"
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app007",
+    "name": "Clash of Clans",
+    "developer": "Supercell",
+    "thumbnail": "https://i.ibb.co.com/gZchtPPT/Untitled-design-13.png",
+    "banner": "https://i.ibb.co.com/gZchtPPT/Untitled-design-13.png",
+    "downloads": "500M",
+    "category": "Gaming",
+    "rating": 4.5,
+    "description": "Clash of Clans is a strategy game where you build your village, train troops, and battle players worldwide in epic clan wars.",
+    "features": ["Village building", "Clan wars", "Multiplayer battles"],
+    "reviews": [
+      {
+        "user": "clan_leader",
+        "rating": 5,
+        "comment": "Love the strategy and community. Always something new to do."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app008",
+    "name": "Todoist",
+    "developer": "Doist Inc.",
+    "thumbnail": "https://i.ibb.co.com/dw5kTddS/Untitled-design-14.png",
+    "banner": "https://i.ibb.co.com/dw5kTddS/Untitled-design-14.png",
+    "downloads": "30M",
+    "category": "Productivity",
+    "rating": 4.7,
+    "description": "Todoist is a powerful task manager that helps you organize your life and work. Stay on top of your tasks with intuitive features and cross-platform syncing.",
+    "features": [
+      "Task prioritization and reminders",
+      "Project templates",
+      "Collaboration tools"
+    ],
+    "reviews": [
+      {
+        "user": "busy_bee",
+        "rating": 5,
+        "comment": "Keeps me organized like nothing else! Love the clean interface."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app009",
+    "name": "Strava",
+    "developer": "Strava, Inc.",
+    "thumbnail": "https://i.ibb.co.com/1f0fMCWR/Untitled-design-15.png",
+    "banner": "https://i.ibb.co.com/1f0fMCWR/Untitled-design-15.png",
+    "downloads": "20M",
+    "category": "Health & Fitness",
+    "rating": 4.5,
+    "description": "Strava is a fitness app for runners and cyclists, offering activity tracking, challenges, and a social community for athletes.",
+    "features": [
+      "GPS activity tracking",
+      "Performance analytics",
+      "Social challenges"
+    ],
+    "reviews": [
+      {
+        "user": "runner_guy",
+        "rating": 4,
+        "comment": "Great for tracking runs, but premium features are pricey."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app010",
+    "name": "Subway Surfers",
+    "developer": "SYBO Games",
+    "thumbnail": "https://i.ibb.co.com/mFBWWGwy/Designer.webp",
+    "banner": "https://i.ibb.co.com/mFBWWGwy/Designer.webp",
+    "downloads": "1.5B",
+    "category": "Gaming",
+    "rating": 4.5,
+    "description": "Subway Surfers is an endless runner game where players dodge obstacles and collect coins while escaping a pursuer on vibrant tracks.",
+    "features": [
+      "Endless running gameplay",
+      "Vibrant graphics",
+      "Global leaderboards"
+    ],
+    "reviews": [
+      {
+        "user": "runner_kid",
+        "rating": 5,
+        "comment": "Super fun and fast-paced! Love the new themes."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app011",
+    "name": "Trello",
+    "developer": "Atlassian",
+    "thumbnail": "https://i.ibb.co.com/ympqGJNG/Untitled-design-16.png",
+    "banner": "https://i.ibb.co.com/ympqGJNG/Untitled-design-16.png",
+    "downloads": "15M",
+    "category": "Productivity",
+    "rating": 4.6,
+    "description": "Trello brings project management to your fingertips with its intuitive board and card system, ideal for personal and team tasks.",
+    "features": [
+      "Kanban boards",
+      "Task automation",
+      "Integration with other tools"
+    ],
+    "reviews": [
+      {
+        "user": "team_lead",
+        "rating": 5,
+        "comment": "Perfect for managing team projects. Simple and effective."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app012",
+    "name": "Fitbit",
+    "developer": "Fitbit, Inc.",
+    "thumbnail": "https://i.ibb.co.com/d0Tcnds9/Untitled-design-17.png",
+    "banner": "https://i.ibb.co.com/d0Tcnds9/Untitled-design-17.png",
+    "downloads": "15M",
+    "category": "Health & Fitness",
+    "rating": 4.4,
+    "description": "Fitbit is a fitness tracking app that monitors your activity, sleep, and heart rate, helping you stay motivated and healthy.",
+    "features": [
+      "Step and activity tracking",
+      "Sleep monitoring",
+      "Heart rate tracking"
+    ],
+    "reviews": [
+      {
+        "user": "fitness_fan",
+        "rating": 4,
+        "comment": "Love the insights, but syncing can be slow sometimes."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app013",
+    "name": "Microsoft To Do",
+    "developer": "Microsoft Corporation",
+    "thumbnail": "https://i.ibb.co.com/Q3zWmCW6/Untitled-design.jpg",
+    "banner": "https://i.ibb.co.com/Q3zWmCW6/Untitled-design.jpg",
+    "downloads": "20M",
+    "category": "Productivity",
+    "rating": 4.6,
+    "description": "Microsoft To Do is a simple yet powerful task management app that integrates with Microsoft 365 to keep your tasks organized.",
+    "features": [
+      "Daily task lists",
+      "Microsoft 365 integration",
+      "Shared lists"
+    ],
+    "reviews": [
+      {
+        "user": "office_worker",
+        "rating": 4,
+        "comment": "Great for work tasks, syncs well with Outlook."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app014",
+    "name": "Asphalt 9: Legends",
+    "developer": "Gameloft",
+    "thumbnail": "https://i.ibb.co.com/5xXGzsQc/Untitled-design-7.png",
+    "banner": "https://i.ibb.co.com/5xXGzsQc/Untitled-design-7.png",
+    "downloads": "100M",
+    "category": "Gaming",
+    "rating": 4.8,
+    "description": "Asphalt 9: Legends is a high-octane racing game with stunning graphics, fast cars, and intense multiplayer races.",
+    "features": [
+      "Realistic graphics",
+      "Multiplayer races",
+      "Car customization"
+    ],
+    "reviews": [
+      {
+        "user": "speed_demon",
+        "rating": 5,
+        "comment": "Best racing game out there! Graphics are insane."
+      }
+    ],
+    "isTrending": true
+  },
+  {
+    "id": "app015",
+    "name": "Calm",
+    "developer": "Calm.com, Inc.",
+    "thumbnail": "https://i.ibb.co.com/GQGMP6gk/Untitled-design-1.jpg",
+    "banner": "https://i.ibb.co.com/GQGMP6gk/Untitled-design-1.jpg",
+    "downloads": "40M",
+    "category": "Health & Fitness",
+    "rating": 4.7,
+    "description": "Calm is a meditation and sleep app designed to reduce stress and improve sleep with guided sessions and soothing sounds.",
+    "features": ["Guided meditations", "Sleep stories", "Breathing exercises"],
+    "reviews": [
+      {
+        "user": "zen_seeker",
+        "rating": 5,
+        "comment": "Helps me sleep better every night. Worth every penny."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app016",
+    "name": "Slack",
+    "developer": "Slack Technologies, Inc.",
+    "thumbnail": "https://i.ibb.co.com/sJz7n1PY/Untitled-design-2.jpg",
+    "banner": "https://i.ibb.co.com/sJz7n1PY/Untitled-design-2.jpg",
+    "downloads": "12M",
+    "category": "Productivity",
+    "rating": 4.5,
+    "description": "Slack is a team communication platform that streamlines collaboration with channels, direct messaging, and integrations.",
+    "features": [
+      "Organized channels",
+      "App integrations",
+      "Video and voice calls"
+    ],
+    "reviews": [
+      {
+        "user": "team_player",
+        "rating": 4,
+        "comment": "Makes team communication so much easier."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app017",
+    "name": "Pokémon GO",
+    "developer": "Niantic, Inc.",
+    "thumbnail": "https://i.ibb.co.com/prPJWJY0/Untitled-design-3.jpg",
+    "banner": "https://i.ibb.co.com/prPJWJY0/Untitled-design-3.jpg",
+    "downloads": "600M",
+    "category": "Gaming",
+    "rating": 4.3,
+    "description": "Pokémon GO is an augmented reality game where players catch Pokémon, battle, and explore real-world locations.",
+    "features": [
+      "Augmented reality gameplay",
+      "Trading and battling",
+      "Community events"
+    ],
+    "reviews": [
+      {
+        "user": "poke_trainer",
+        "rating": 4,
+        "comment": "Fun way to get outside, but battery drain is real."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app018",
+    "name": "Google Keep",
+    "developer": "Google LLC",
+    "thumbnail": "https://i.ibb.co.com/QFTy5H4r/Untitled-design-6.jpg",
+    "banner": "https://i.ibb.co.com/QFTy5H4r/Untitled-design-6.jpg",
+    "downloads": "50M",
+    "category": "Productivity",
+    "rating": 4.7,
+    "description": "Google Keep is a note-taking app that syncs across devices, offering quick capture of ideas, lists, and reminders.",
+    "features": [
+      "Note and list creation",
+      "Voice memos",
+      "Google account syncing"
+    ],
+    "reviews": [
+      {
+        "user": "organizer",
+        "rating": 5,
+        "comment": "Perfect for quick notes and syncing with Google."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app019",
+    "name": "Asana",
+    "developer": "Asana, Inc.",
+    "thumbnail": "https://i.ibb.co.com/S4pG9v0k/Untitled-design-4.jpg",
+    "banner": "https://i.ibb.co.com/S4pG9v0k/Untitled-design-4.jpg",
+    "downloads": "8M",
+    "category": "Productivity",
+    "rating": 4.5,
+    "description": "Asana is a project management tool that helps teams organize tasks, track progress, and achieve goals efficiently.",
+    "features": ["Task assignments", "Timeline views", "Team collaboration"],
+    "reviews": [
+      {
+        "user": "project_manager",
+        "rating": 4,
+        "comment": "Great for keeping projects on track."
+      }
+    ],
+    "isTrending": false
+  },
+  {
+    "id": "app020",
+    "name": "Sleep Cycle",
+    "developer": "Sleep Cycle AB",
+    "thumbnail": "https://i.ibb.co.com/0RRgSsY1/Untitled-design-5.jpg",
+    "banner": "https://i.ibb.co.com/0RRgSsY1/Untitled-design-5.jpg",
+    "downloads": "10M",
+    "category": "Health & Fitness",
+    "rating": 4.6,
+    "description": "Sleep Cycle tracks sleep patterns and wakes users during light sleep phases for a refreshed morning.",
+    "features": ["Sleep tracking", "Smart alarm clock", "Sleep analysis"],
+    "reviews": [
+      {
+        "user": "early_bird",
+        "rating": 4,
+        "comment": "Helps me wake up feeling better."
+      }
+    ],
+    "isTrending": false
+  }
+  
+]

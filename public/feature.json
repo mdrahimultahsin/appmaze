@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn-icons-png.flaticon.com/512/6645/6645280.png",
+    "title": "Fast & Curated",
+    "description": "Access handpicked apps across productivity, gaming, and health in seconds."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn-icons-png.flaticon.com/512/11167/11167978.png",
+    "title": "Top Rated Picks",
+    "description": "We only feature apps that users love and rate highly."
+  },
+  {
+    "id": 3,
+    "icon": "https://img.freepik.com/premium-vector/magnifying-glass-star-shape-icon-flat-style-search-loupe-white-background-business-illus_812194-298.jpg",
+    "title": "Smart Search",
+    "description": "Find exactly what you need with powerful category and tag filters."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn1.iconfinder.com/data/icons/quality-assurance-flaticon/64/thumbs_up-good_feedback-ui-tick_mark-verified-check_mark_-512.png",
+    "title": "User Trusted",
+    "description": "Thousands of users rely on AppMaze to discover quality apps daily."
+  }
+]

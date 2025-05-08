@@ -1,0 +1,27 @@
+[
+        {
+          "id": "1",
+          "name": "Steve Jobs",
+          "image": "https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F1s24tuU1dL9Vymh2Cjbb5w%2Fece71dc0300d0a5e8b8edef1ee1c96b4%2Fsteve-jobs.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=41515d96367392a4699a017aa8a9c108",
+          "department": "UI/UX Design"
+        },
+        {
+          "id": "2",
+          "name": "Jhankar Mahbub",
+          "image": "https://yt3.googleusercontent.com/ytc/AIdro_lCNxF_Si1O8ccsd9eyayO7F4r75EXUB0_Drt_VJsybOg=s900-c-k-c0x00ffffff-no-rj",
+          "department": "Full Stack Development"
+        },
+        {
+          "id": "3",
+          "name": "Elon Musk",
+          "image": "https://s.yimg.com/ny/api/res/1.2/C.LpRWYnNNMimAfs2LlpPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUzOQ--/https://media.zenfs.com/en/quartz.com/39cce7842bee5a0fb9c9231c0b22458a",
+          "department": "Project Management"
+        },
+        {
+          "id": "4",
+          "name": "Bill Gates",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqj9gAmw59SMYO_kq12z9Q8msTgrB1CabeA&s",
+          "department": "DevOps Engineering"
+        }
+      ]
+      

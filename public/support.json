@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Knowledgebase",
+    "description": "Read our getting started guidelines and learn more.",
+    "link": "Browse all documentations",
+    "icon": "https://cdn-icons-png.flaticon.com/512/171/171322.png"
+  },
+  {
+    "title": "Free Support Forum",
+    "description": "Using the free version? Let us know your query here.",
+    "link": "Post your query",
+    "icon": "https://icons.iconarchive.com/icons/fa-team/fontawesome/512/FontAwesome-Circle-Question-icon.png"
+  },
+  {
+    "title": "Premium Support",
+    "description": "Upgraded? Create a ticket for premium assistance.",
+    "link": "Create a new ticket",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1017/1017519.png"
+  },
+  {
+    "title": "Sales Queries",
+    "description": "Have sales-related questions? We’re here to help.",
+    "link": "Contact our sales team",
+    "icon": "https://www.iconarchive.com/download/i112079/fa-team/fontawesome/FontAwesome-Cart-Shopping.1024.png"
+  }
+]

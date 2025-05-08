@@ -2,7 +2,7 @@
 
 ## 🚀 Live Site
 
-[🔗 Click here to visit AppMaze](https://appmaze-ca696.web.app/)
+[🔗 Click here to visit AppMaze](https://appmaze-rh.netlify.app/)
 
 ## 🎯 Project Purpose
 
@@ -24,7 +24,7 @@
 - Supports partial matching and case-insensitive search.
 - 📊 **Trending Section** – Highlights apps with the highest ratings.
 - 🔄 **Persistent User State** – Uses Firebase’s `onAuthStateChanged` for persistent login.
-- 🔄 **Team Section** –  Displays contributors or developers involved in the project. Each member card shows a photo, name, role, and social links.
+- 🔄 **Team Section** – Displays contributors or developers involved in the project. Each member card shows a photo, name, role, and social links.
 - 🛠️ **Dynamic Titles** – Each page dynamically updates the browser tab title.
 - 🧭 **Extra Routes** – Includes Support Page and a custom 404 page.
 - 🔐 **My Profile Page** – Protected route allowing users to update their name and photoURL.

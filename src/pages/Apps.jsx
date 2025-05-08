@@ -1,4 +1,4 @@
-import React, {use, useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import Slider from "../components/Slider/Slider";
 import {Link, useLoaderData} from "react-router";
 
@@ -25,7 +25,7 @@ const Apps = () => {
   const [healthApps, setHealthApps] = useState([]);
   const [searchValue, setSearchValue] = useState("");
   const [searchedApps, setSearchedApps] = useState(null);
-  const {loading, setLoading} = use(AuthContext);
+  const {loading, setLoading} = useContext(AuthContext);
   const [showSearchedApps, setShowSearchedApps] = useState(false);
   useEffect(() => {
     const trendingFilteredApps = data.filter((app) => app.isTrending);
@@ -57,6 +57,9 @@ const Apps = () => {
       }, 500);
       return () => clearTimeout(delay);
     }
+    if (searchValue.length === 0) {
+      setShowSearchedApps(false);
+    }
   }, [data, searchValue, setLoading]);
   const handleSearch = () => {
     if (searchValue) {
@@ -78,7 +81,13 @@ const Apps = () => {
           {/* Search Section */}
           <section className="relative left-0 right-0 z-10 bottom-10 flex  justify-center w-11/12 md:w-full mx-auto ">
             <div className="border-t border-base-300  rounded-t-2xl  w-full max-w-xl pt-5 pb-2 bg-white relative">
-              <div className="flex  items-center gap-2 rounded-t-2xl bg-white px-8 relative">
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  handleSearch();
+                }}
+                className="flex  items-center gap-2 rounded-t-2xl bg-white px-8 relative"
+              >
                 <input
                   type="text"
                   onChange={(e) => setSearchValue(e.target.value)}
@@ -87,9 +96,11 @@ const Apps = () => {
                   className="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 "
                 />
                 {searchValue && (
-                  <button type="submit"
-                    onClick={() => {setSearchValue("")
-                      setShowSearchedApps(false)
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSearchValue("");
+                      setShowSearchedApps(false);
                     }}
                     className="absolute right-30 text-md top-3 cursor-pointer z-50"
                   >
@@ -97,17 +108,21 @@ const Apps = () => {
                   </button>
                 )}
                 <button
+                  type="submit"
                   onClick={handleSearch}
                   className="rounded-lg bg-purple-600 px-5 py-2 text-white font-semibold hover:bg-purple-700 transition cursor-pointer"
                 >
                   <IoSearch size={25} />
                 </button>
-              </div>
+              </form>
               <div className=" text-left bg-white pb-2 pt-3 mt-1 absolute left-0 right-0 border-b rounded-b-2xl border-base-300">
                 <ul>
                   {searchValue &&
                     searchedApps?.slice(0, 7).map((app) => (
-                      <li className="w-full py-2 pl-12 bg-transparent border-none hover:bg-base-300 shadow-none text-left group-first:cursor-pointer">
+                      <li
+                        key={app.id}
+                        className="w-full py-2 pl-12 bg-transparent border-none hover:bg-base-300 shadow-none text-left group-first:cursor-pointer"
+                      >
                         <Link
                           className="block cursor-pointer"
                           to={`appdetails/${app.id}`}
